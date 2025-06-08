@@ -1,18 +1,9 @@
-
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QLabel, QPushButton, QHBoxLayout, QVBoxLayout, QRadioButton)
 from instr import *
 
-global_ne = 0
-global_ni = 0
-global_te = 0
-global_ti = 0
-global_fe = 0
-global_fi = 0
-global_se = 0
-global_si = 0
-
+#🔽тут переменная ne
 class Question1(QWidget):
     def __init__(self):
         super().__init__()
@@ -77,6 +68,7 @@ class Question1(QWidget):
         self.q2.show()
         self.close()
 
+#🔽тут переменная si
 class Question2(QWidget):
     def __init__(self):
         super().__init__()
@@ -141,6 +133,7 @@ class Question2(QWidget):
         self.q3.show()
         self.close()
 
+#🔽тут переменная ti
 class Question3(QWidget):
     def __init__(self):
         super().__init__()
@@ -205,6 +198,7 @@ class Question3(QWidget):
         self.q4.show()
         self.close()
 
+#🔽тут переменная fi
 class Question4(QWidget):
     def __init__(self):
         super().__init__()
@@ -269,6 +263,7 @@ class Question4(QWidget):
         self.q5.show()
         self.close()
 
+#🔽тут переменная ne
 class Question5(QWidget):
     def __init__(self):
         super().__init__()
@@ -333,6 +328,7 @@ class Question5(QWidget):
         self.q6.show()
         self.close()
 
+#🔽тут переменная ni
 class Question6(QWidget):
     def __init__(self):
         super().__init__()
@@ -397,6 +393,7 @@ class Question6(QWidget):
         self.q7.show()
         self.close()
 
+#🔽тут переменная te
 class Question7(QWidget):
     def __init__(self):
         super().__init__()
@@ -461,6 +458,7 @@ class Question7(QWidget):
         self.q8.show()
         self.close()
 
+#🔽тут переменная ni
 class Question8(QWidget):
     def __init__(self):
         super().__init__()
@@ -525,6 +523,7 @@ class Question8(QWidget):
         self.q9.show()
         self.close()
 
+#🔽тут переменная se
 class Question9(QWidget):
     def __init__(self):
         super().__init__()
@@ -589,6 +588,7 @@ class Question9(QWidget):
         self.q10.show()
         self.close()
 
+#🔽тут переменная fe
 class Question10(QWidget):
     def __init__(self):
         super().__init__()
@@ -653,6 +653,7 @@ class Question10(QWidget):
         self.q11.show()
         self.close()
 
+#🔽тут переменная si
 class Question11(QWidget):
     def __init__(self):
         super().__init__()
@@ -717,6 +718,7 @@ class Question11(QWidget):
         self.q12.show()
         self.close()
 
+#🔽тут переменная fe
 class Question12(QWidget):
     def __init__(self):
         super().__init__()
@@ -781,6 +783,7 @@ class Question12(QWidget):
         self.q13.show()
         self.close()
 
+#🔽тут переменная fi
 class Question13(QWidget):
     def __init__(self):
         super().__init__()
@@ -846,6 +849,7 @@ class Question13(QWidget):
         self.q14.show()
         self.close()
 
+#🔽тут переменная te
 class Question14(QWidget):
     def __init__(self):
         super().__init__()
@@ -911,6 +915,7 @@ class Question14(QWidget):
         self.q15.show()
         self.close()
 
+#🔽тут переменная ti
 class Question15(QWidget):
     def __init__(self):
         super().__init__()
@@ -976,6 +981,7 @@ class Question15(QWidget):
         self.q16.show()
         self.close()
 
+#🔽тут переменная se
 class Question16(QWidget):
     def __init__(self):
         super().__init__()
@@ -1040,4 +1046,3 @@ class Question16(QWidget):
         self.final_win = FinalWin()
         self.final_win.show()
         self.close()
-
